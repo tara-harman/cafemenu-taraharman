@@ -1,4 +1,10 @@
-const menuItems = ["Latte", "Espresso", "Green Tea", "Muffin", "Iced Coffee"];
+const menuItems = [
+  "Sakura Latte",
+  "Matcha Cloud Tea",
+  "Rose Honey Espresso",
+  "Strawberry Cream Muffin",
+  "Iced Cherry Blossom Milk"
+];
 
 const menuList = document.getElementById("menu-list");
 
