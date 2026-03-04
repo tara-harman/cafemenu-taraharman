@@ -28,12 +28,6 @@ h1 {
   letter-spacing: 1px;
 }
 
-/* Tagline */
-.tagline {
-  font-style: italic;
-  margin-bottom: 35px;
-  color: #7a3e63;
-}
 
 /* Remove bullets */
 #menu-list {
