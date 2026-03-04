@@ -1,40 +1,63 @@
 body {
-  background: linear-gradient(to bottom, #ffe6f0, #ffd1e6);
-  color: #5a2a4d;
-  text-align: center;
-  font-family: "Georgia", serif;
   margin: 0;
-  padding: 50px 20px;
+  padding: 60px 20px;
+  font-family: "Georgia", serif;
+  background: linear-gradient(135deg, #ffe6f2, #ffd6ec, #fff0f7);
+  display: flex;
+  justify-content: center;
 }
 
+/* Soft centered card */
+.menu-container {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(10px);
+  padding: 50px 40px;
+  border-radius: 30px;
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+  box-shadow: 0 15px 40px rgba(255, 182, 193, 0.3);
+}
+
+/* Heading */
 h1 {
-  font-size: 42px;
-  margin-bottom: 10px;
+  font-size: 44px;
+  margin-bottom: 8px;
+  color: #b35c8a;
+  letter-spacing: 1px;
 }
 
-p {
+/* Tagline */
+.tagline {
   font-style: italic;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
+  color: #7a3e63;
 }
 
+/* Remove bullets */
 #menu-list {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
+/* Menu items */
 #menu-list li {
-  background: #fff0f6;
-  padding: 14px;
-  margin: 10px auto;
-  border-radius: 20px;
-  width: 60%;
+  background: #fff5fa;
+  padding: 16px;
+  margin: 14px auto;
+  border-radius: 25px;
+  width: 80%;
   font-size: 18px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
-  transition: 0.3s ease;
+  color: #5a2a4d;
+  box-shadow: 0 6px 15px rgba(255, 192, 203, 0.2);
+  transition: all 0.3s ease;
 }
 
+/* Cozy hover effect */
 #menu-list li:hover {
-  background: #ffcce0;
-  transform: scale(1.05);
+  background: #ffe0f0;
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 10px 25px rgba(255, 182, 193, 0.4);
   cursor: pointer;
 }
