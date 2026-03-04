@@ -28,6 +28,14 @@ h1 {
   letter-spacing: 1px;
 }
 
+h2 {
+  font-size: 30px;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 8px;
+  color: #b35c8a;
+  letter-spacing: 1px;
+}
+
 
 /* Remove bullets */
 #menu-list {
