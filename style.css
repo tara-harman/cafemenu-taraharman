@@ -29,13 +29,14 @@ h1 {
 }
 
 h2 {
-  font-size: 30px;
-  font-family: 'Playfair Display', serif;
-  margin-bottom: 8px;
-  color: #b35c8a;
-  letter-spacing: 1px;
+  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: #a14c74;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  position: relative;
 }
-
 
 /* Remove bullets */
 #menu-list {
