@@ -35,5 +35,5 @@ menuItems.forEach((item) => {
 // Daily special button
 button.addEventListener("click", () => {
   const randomItem = menuItems[Math.floor(Math.random() * menuItems.length)];
-  display.textContent = `🌸 Today's Special: ${randomItem.name} (${randomItem.price})`;
+  display.textContent = `Today's Special: ${randomItem.name} (${randomItem.price})`;
 });
