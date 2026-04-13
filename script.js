@@ -37,11 +37,17 @@ button.addEventListener("click", () => {
   const randomItem = menuItems[Math.floor(Math.random() * menuItems.length)];
   display.textContent = `Today's Special: ${randomItem.name} (${randomItem.price})`;
 });
-const questions = document.querySelectorAll(".faq-question");
 
 questions.forEach((question) => {
   question.addEventListener("click", () => {
     const answer = question.nextElementSibling;
+
+    document.querySelectorAll(".faq-answer").forEach((item) => {
+      if (item !== answer) {
+        item.classList.remove("show");
+      }
+    });
+
     answer.classList.toggle("show");
   });
 });
