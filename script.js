@@ -1,7 +1,5 @@
-// Wait until the page fully loads
 document.addEventListener("DOMContentLoaded", () => {
 
-  // MENU ITEMS
   const menuItems = [
     { name: "Sakura Latte", price: "$5.50" },
     { name: "Matcha Cloud Tea", price: "$4.75" },
@@ -27,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
     menuList.appendChild(li);
   });
 
-  // DAILY SPECIAL
+  
   const button = document.getElementById("show-special");
   const display = document.getElementById("daily-special");
 
@@ -36,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
     display.textContent = `Today's Special: ${randomItem.name} (${randomItem.price})`;
   });
 
-  // FAQ ACCORDION
+ 
   const questions = document.querySelectorAll(".faq-question");
 
   questions.forEach((question) => {
