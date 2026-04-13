@@ -7,7 +7,6 @@ body {
   justify-content: center;
 }
 
-/* Soft centered card */
 .menu-container {
   background: rgba(255, 255, 255, 0.75);
   backdrop-filter: blur(10px);
@@ -19,7 +18,6 @@ body {
   box-shadow: 0 15px 40px rgba(255, 182, 193, 0.3);
 }
 
-/* Heading */
 h1 {
   font-size: 44px;
   font-family: 'Playfair Display', serif;
@@ -36,14 +34,12 @@ h2 {
   margin-bottom: 20px;
 }
 
-/* Remove bullets */
 #menu-list {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-/* Menu items */
 #menu-list li {
   background: #fff5fa;
   padding: 16px 20px;
@@ -59,7 +55,6 @@ h2 {
   transition: all 0.3s ease;
 }
 
-/* Hover effect */
 #menu-list li:hover {
   background: #ffe0f0;
   transform: translateY(-3px) scale(1.03);
@@ -67,7 +62,6 @@ h2 {
   cursor: pointer;
 }
 
-/* Button styling */
 #show-special {
   margin-top: 25px;
   padding: 12px 24px;
@@ -87,7 +81,6 @@ h2 {
   background: linear-gradient(135deg, #ffa6cf, #ffbde0);
 }
 
-/* Daily special text */
 #daily-special {
   margin-top: 18px;
   font-size: 18px;
@@ -95,12 +88,11 @@ h2 {
   font-style: italic;
   min-height: 24px;
 }
-/* FAQ section */
+
 .faq-item {
   margin-top: 15px;
 }
 
-/* Question button */
 .faq-question {
   width: 100%;
   padding: 14px;
@@ -120,7 +112,6 @@ h2 {
   transform: scale(1.02);
 }
 
-/* Answer (hidden by default) */
 .faq-answer {
   display: none;
   padding: 12px 16px;
@@ -131,7 +122,6 @@ h2 {
   font-size: 15px;
 }
 
-/* Show class toggled by JS */
 .faq-answer.show {
   display: block;
 }
