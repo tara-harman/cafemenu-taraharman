@@ -38,16 +38,14 @@ button.addEventListener("click", () => {
   display.textContent = `Today's Special: ${randomItem.name} (${randomItem.price})`;
 });
 
-questions.forEach((question) => {
-  question.addEventListener("click", () => {
-    const answer = question.nextElementSibling;
+document.addEventListener("DOMContentLoaded", () => {
+  const questions = document.querySelectorAll(".faq-question");
 
-    document.querySelectorAll(".faq-answer").forEach((item) => {
-      if (item !== answer) {
-        item.classList.remove("show");
-      }
+  questions.forEach((question) => {
+    question.addEventListener("click", () => {
+      const answer = question.nextElementSibling;
+
+      answer.classList.toggle("show");
     });
-
-    answer.classList.toggle("show");
   });
 });
